@@ -35,7 +35,7 @@ namespace DatabaseConnect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(643, 450);
+            this.ClientSize = new System.Drawing.Size(513, 360);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
