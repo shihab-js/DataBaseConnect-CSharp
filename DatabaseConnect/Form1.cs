@@ -21,9 +21,26 @@ namespace DatabaseConnect
         private void button1_Click(object sender, EventArgs e)
         {
             String SqlString;
+            
             SqlConnection conn;
 
+            //Connection string...
             SqlString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Shihab Rayhan\source\repos\DatabaseConnect\DatabaseConnect\DatabaseConnect.mdf;Integrated Security=True";
+
+            //Creeate connection
+            conn = new SqlConnection(SqlString);
+
+
+            try {
+                conn.Open();
+                MessageBox.Show("Successfully Connected!");
+
+            } catch(Exception ex) {
+
+                MessageBox.Show(ex.Message);
+            }
+
+
         }
     }
 }
