@@ -20,7 +20,10 @@ namespace DatabaseConnect
 
         private void button1_Click(object sender, EventArgs e)
         {
+            String SqlString;
+            SqlConnection conn;
 
+            SqlString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Shihab Rayhan\source\repos\DatabaseConnect\DatabaseConnect\DatabaseConnect.mdf;Integrated Security=True";
         }
     }
 }
